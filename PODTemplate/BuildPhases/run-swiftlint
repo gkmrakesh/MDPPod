@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+swiftlint="$SRCROOT/Pods/SwiftLint/swiftlint"
+
+if [ -f "$swiftlint" ]; then
+  "$swiftlint" --config $SRCROOT/Configurations/.swiftlint.yml
+else
+  echo 'warning: Problem installing swiftlint'
+fi
