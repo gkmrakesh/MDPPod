@@ -14,16 +14,19 @@ module MDPPod
   def self.start_process_project
   	remove_output_directory
   	move_to_output_folder
-  	ChangeFolderFileNames.AskProjectName
-  	ChangeFolderFileNames.ChangeFolderNames
-    ChangeFolderFileNames.ChangeFileNames
+  	ChangeFolderFileNames.ask_project_name
+
+    ##
+    # HAS TO CALL TWO TIMES, FIRST TIME FOLDER STRUCTURE AND SECOND 
+    # TIME FILE NAMES WOULD BE CHANGING BY SAME FUNCTION
+  	ChangeFolderFileNames.rename_folder_files
+    ChangeFolderFileNames.rename_folder_files
 
     fileChanger=FileChange.new
-    fileChanger.loop_through_files
+    fileChanger.rename_file_content_as_per_details
 
     ConfigureAndLoadProject.install_pods
     ConfigureAndLoadProject.open_workspace
-    # ConfigureAndLoadProject.run_workspace
   end
 
   def self.remove_output_directory

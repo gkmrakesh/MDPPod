@@ -17,11 +17,5 @@ module ConfigureAndLoadProject
 		# binding.pry
 		open_project=`open #{@@output_project_name}/#{project_name}.xcworkspace`
 	end
-
-	def self.run_workspace
-		puts "Running project..."
-		project_name=ChangeFolderFileNames.class_variable_get(:@@change_default_name_to)
-		build_project=`xcodebuild -workspace '#{@@output_project_name}/#{project_name}.xcworkspace' -scheme #{project_name}Example -sdk iphonesimulator11.0 -configuration Debug -derivedDataPath build`
-		# run_project=`ios-sim launch --devicetypeid 'iPhone-6, 11.0' build/Build/Products/Debug-iphonesimulator/#{project_name}.app`
-	end
+	
 end
