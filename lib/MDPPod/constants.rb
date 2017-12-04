@@ -5,7 +5,11 @@ module Constants
 	@@default_name="replaceWithName"
 	@@default_email="replace@this.com"
 	@@swift_file_extension=".swift"
+	@@md_file_extension=".md"
+	@@podspec_file_extension=".podspec"
+	@@license_file_extension="LICENSE"
 	@@default_name_placeholder="-{user name}"
 	@@default_date_placeholder="-{date}"
 	@@default_year_placeholder="-{year}"
+	@@default_email_placeholder="-{email}"
 end

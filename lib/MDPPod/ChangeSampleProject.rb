@@ -11,7 +11,11 @@ module ChangeSampleProject
 			@output_project_name=Constants.class_variable_get(:@@output_project_name)
 			@default_project_name=Constants.class_variable_get(:@@default_project_name)
 			@swift_file_extension=Constants.class_variable_get(:@@swift_file_extension)
+			@md_file_extension=Constants.class_variable_get(:@@md_file_extension)
+			@podspec_file_extension=Constants.class_variable_get(:@@podspec_file_extension)
+			@license_file_extension=Constants.class_variable_get(:@@license_file_extension)
 			@default_name_placeholder=Constants.class_variable_get(:@@default_name_placeholder)
+			@default_email_placeholder=Constants.class_variable_get(:@@default_email_placeholder)
 			@default_date_placeholder=Constants.class_variable_get(:@@default_date_placeholder)
 			@default_year_placeholder=Constants.class_variable_get(:@@default_year_placeholder)
 		end
@@ -35,6 +39,7 @@ module ChangeSampleProject
 
 			new_contents = replace_project_name(text)
 			new_contents = replace_name(file_path, new_contents)
+			new_contents = replace_email(file_path, new_contents)
 			new_contents = replace_date(file_path, new_contents)
 			new_contents = replace_year(file_path, new_contents)
 
@@ -47,8 +52,20 @@ module ChangeSampleProject
 		end
 
 		def replace_name(file_path, new_contents)
-			if file_path.include?(@swift_file_extension)
+			if file_path.include?(@swift_file_extension) || 
+				file_path.include?(@md_file_extension) || 
+				file_path.include?(@podspec_file_extension) || 
+				file_path.include?(@license_file_extension)
 				new_contents = new_contents.gsub(@default_name_placeholder, ProjectConfigurationDetails.user_name)
+			end
+			new_contents
+		end
+
+		def replace_email(file_path, new_contents)
+			if  file_path.include?(@md_file_extension) || 
+				file_path.include?(@podspec_file_extension) || 
+				file_path.include?(@license_file_extension)
+				new_contents = new_contents.gsub(@default_email_placeholder, ProjectConfigurationDetails.user_email)
 			end
 			new_contents
 		end

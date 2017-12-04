@@ -7,12 +7,12 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://www.amadeus.com"
+  s.homepage     = "http://www.example.com"
 
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-  s.author             = { "Amadeus labs" => "noreply@amadeus.com" }
+  s.author             = { "-{user name}" => "-{email}" }
 
   s.source       = { :git => "http://EXAMPLE/PROJECT.git", :tag => "#{s.version}" }
 

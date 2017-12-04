@@ -12,7 +12,7 @@ module ConfigureAndLoadProject
 	end
 
 	def self.open_workspace
-		puts "Open workspace..."
+		puts "Opening workspace..."
 		project_name=ChangeFolderFileNames.class_variable_get(:@@change_default_name_to)
 		# binding.pry
 		open_project=`open #{@@output_project_name}/#{project_name}.xcworkspace`

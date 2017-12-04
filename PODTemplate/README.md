@@ -14,7 +14,7 @@ To run the example project, clone the repo, and run Example project.
 
 ## Author
 
-Amadeus labs, noreply@amadeus.com
+-{user name}, -{email}
 
 ## License
 
