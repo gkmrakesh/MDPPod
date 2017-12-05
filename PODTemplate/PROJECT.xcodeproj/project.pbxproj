@@ -28,15 +28,15 @@
 		946555F29D436D236A32F338 /* Pods-PROJECT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PROJECT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PROJECT/Pods-PROJECT.debug.xcconfig"; sourceTree = "<group>"; };
 		B7644184E7A0E0CAAE9BF09D /* Pods_PROJECT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PROJECT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADCC94CFA726985A67854C0 /* Pods-PROJECT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PROJECT.release.xcconfig"; path = "Pods/Target Support Files/Pods-PROJECT/Pods-PROJECT.release.xcconfig"; sourceTree = "<group>"; };
-		DE00E7651FD5502F0037630F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		DE00E7661FD5504D0037630F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
-		DE00E7671FD5504D0037630F /* PROJECT.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PROJECT.podspec; sourceTree = SOURCE_ROOT; };
 		DE1BDE161FD2FAAF00CF70B2 /* ReplaceMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		DE820F251FD19B90001A32B3 /* PROJECT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PROJECT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE820F291FD19B90001A32B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE820F2E1FD19B90001A32B3 /* PROJECTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE820F331FD19B90001A32B3 /* PROJECTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROJECTTests.swift; sourceTree = "<group>"; };
 		DE820F351FD19B90001A32B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE967C8B1FD69F0C0040D4F4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DE967C8C1FD69F1A0040D4F4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DE967C8D1FD69F1A0040D4F4 /* PROJECT.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PROJECT.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,28 +77,11 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DE00E7611FD54FE50037630F /* Deployment */ = {
-			isa = PBXGroup;
-			children = (
-				DE00E7661FD5504D0037630F /* LICENSE */,
-				DE00E7671FD5504D0037630F /* PROJECT.podspec */,
-			);
-			path = Deployment;
-			sourceTree = "<group>";
-		};
-		DE00E7631FD550040037630F /* Documentation */ = {
-			isa = PBXGroup;
-			children = (
-				DE00E7651FD5502F0037630F /* README.md */,
-			);
-			path = Documentation;
-			sourceTree = "<group>";
-		};
 		DE820F1B1FD19B90001A32B3 = {
 			isa = PBXGroup;
 			children = (
-				DE00E7631FD550040037630F /* Documentation */,
-				DE00E7611FD54FE50037630F /* Deployment */,
+				DE967C8A1FD69EDF0040D4F4 /* Documentation */,
+				DE967C881FD69EA30040D4F4 /* Deployment */,
 				DE820F271FD19B90001A32B3 /* PROJECT */,
 				DE820F321FD19B90001A32B3 /* PROJECTTests */,
 				DE820F261FD19B90001A32B3 /* Products */,
@@ -132,6 +115,23 @@
 				DE820F351FD19B90001A32B3 /* Info.plist */,
 			);
 			path = PROJECTTests;
+			sourceTree = "<group>";
+		};
+		DE967C881FD69EA30040D4F4 /* Deployment */ = {
+			isa = PBXGroup;
+			children = (
+				DE967C8C1FD69F1A0040D4F4 /* LICENSE */,
+				DE967C8D1FD69F1A0040D4F4 /* PROJECT.podspec */,
+			);
+			name = Deployment;
+			sourceTree = "<group>";
+		};
+		DE967C8A1FD69EDF0040D4F4 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				DE967C8B1FD69F0C0040D4F4 /* README.md */,
+			);
+			name = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
