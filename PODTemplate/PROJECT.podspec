@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'PROJECT/**/*.swift'
-  # s.resources = 'Resources/*','PROJECT/**/*.{xib}'
+  s.source_files = 'Source/**/*.swift'
+  # s.resources = 'Resources/*','Source/**/*.{xib}'
 
   # s.frameworks = 'UIKit'
 

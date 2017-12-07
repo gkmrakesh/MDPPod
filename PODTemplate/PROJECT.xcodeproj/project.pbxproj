@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D2FC1348AE5FBC1C20EFA7CB /* Pods_PROJECT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7644184E7A0E0CAAE9BF09D /* Pods_PROJECT.framework */; };
-		DE1BDE171FD2FAAF00CF70B2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1BDE161FD2FAAF00CF70B2 /* ReplaceMe.swift */; };
 		DE820F2F1FD19B90001A32B3 /* PROJECT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE820F251FD19B90001A32B3 /* PROJECT.framework */; };
-		DE820F341FD19B90001A32B3 /* PROJECTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE820F331FD19B90001A32B3 /* PROJECTTests.swift */; };
+		DEF3B31E1FD91ED000CCAF97 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3B3191FD91E8100CCAF97 /* ReplaceMe.swift */; };
+		DEF3B32D1FD920D900CCAF97 /* PROJECTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3B31C1FD91EB500CCAF97 /* PROJECTTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,15 +28,15 @@
 		946555F29D436D236A32F338 /* Pods-PROJECT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PROJECT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PROJECT/Pods-PROJECT.debug.xcconfig"; sourceTree = "<group>"; };
 		B7644184E7A0E0CAAE9BF09D /* Pods_PROJECT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PROJECT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADCC94CFA726985A67854C0 /* Pods-PROJECT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PROJECT.release.xcconfig"; path = "Pods/Target Support Files/Pods-PROJECT/Pods-PROJECT.release.xcconfig"; sourceTree = "<group>"; };
-		DE1BDE161FD2FAAF00CF70B2 /* ReplaceMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		DE820F251FD19B90001A32B3 /* PROJECT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PROJECT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE820F291FD19B90001A32B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE820F2E1FD19B90001A32B3 /* PROJECTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PROJECTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE820F331FD19B90001A32B3 /* PROJECTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROJECTTests.swift; sourceTree = "<group>"; };
-		DE820F351FD19B90001A32B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE967C8B1FD69F0C0040D4F4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE967C8C1FD69F1A0040D4F4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DE967C8D1FD69F1A0040D4F4 /* PROJECT.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = PROJECT.podspec; sourceTree = "<group>"; };
+		DEF3B3181FD91E8100CCAF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF3B3191FD91E8100CCAF97 /* ReplaceMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		DEF3B31B1FD91EB500CCAF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF3B31C1FD91EB500CCAF97 /* PROJECTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PROJECTTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 			children = (
 				DE967C8A1FD69EDF0040D4F4 /* Documentation */,
 				DE967C881FD69EA30040D4F4 /* Deployment */,
-				DE820F271FD19B90001A32B3 /* PROJECT */,
-				DE820F321FD19B90001A32B3 /* PROJECTTests */,
+				DEF3B3171FD91E8100CCAF97 /* Source */,
+				DEF3B31A1FD91EB500CCAF97 /* Tests */,
 				DE820F261FD19B90001A32B3 /* Products */,
 				63F1ADC0ACF4D53FFCBA1F96 /* Pods */,
 				38F920F98DECB6E070307122 /* Frameworks */,
@@ -97,24 +97,6 @@
 				DE820F2E1FD19B90001A32B3 /* PROJECTTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		DE820F271FD19B90001A32B3 /* PROJECT */ = {
-			isa = PBXGroup;
-			children = (
-				DE820F291FD19B90001A32B3 /* Info.plist */,
-				DE1BDE161FD2FAAF00CF70B2 /* ReplaceMe.swift */,
-			);
-			path = PROJECT;
-			sourceTree = "<group>";
-		};
-		DE820F321FD19B90001A32B3 /* PROJECTTests */ = {
-			isa = PBXGroup;
-			children = (
-				DE820F331FD19B90001A32B3 /* PROJECTTests.swift */,
-				DE820F351FD19B90001A32B3 /* Info.plist */,
-			);
-			path = PROJECTTests;
 			sourceTree = "<group>";
 		};
 		DE967C881FD69EA30040D4F4 /* Deployment */ = {
@@ -132,6 +114,24 @@
 				DE967C8B1FD69F0C0040D4F4 /* README.md */,
 			);
 			name = Documentation;
+			sourceTree = "<group>";
+		};
+		DEF3B3171FD91E8100CCAF97 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3B3181FD91E8100CCAF97 /* Info.plist */,
+				DEF3B3191FD91E8100CCAF97 /* ReplaceMe.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DEF3B31A1FD91EB500CCAF97 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3B31B1FD91EB500CCAF97 /* Info.plist */,
+				DEF3B31C1FD91EB500CCAF97 /* PROJECTTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1BDE171FD2FAAF00CF70B2 /* ReplaceMe.swift in Sources */,
+				DEF3B31E1FD91ED000CCAF97 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE820F341FD19B90001A32B3 /* PROJECTTests.swift in Sources */,
+				DEF3B32D1FD920D900CCAF97 /* PROJECTTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +444,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PROJECT/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.merci.native.app.PROJECT;
@@ -468,7 +468,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PROJECT/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.merci.native.app.PROJECT;
@@ -485,7 +485,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M629BGFEH2;
-				INFOPLIST_FILE = PROJECTTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.merci.native.app.PROJECTTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,7 +500,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M629BGFEH2;
-				INFOPLIST_FILE = PROJECTTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.merci.native.app.PROJECTTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

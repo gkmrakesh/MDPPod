@@ -49,8 +49,11 @@ disabled_rules:
 - weak_delegate
 - trailing_whitespace
 
-include:
-- ./Source
+excluded:
+- Pods
+- Configurations
+- MeRCIappTests
+- MeRCIapp/Resources
 
 force_cast: warning #implicitly
 force_try: warning #implicitly
