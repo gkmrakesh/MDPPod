@@ -119,8 +119,8 @@
 		DEF3B3171FD91E8100CCAF97 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DEF3B3181FD91E8100CCAF97 /* Info.plist */,
 				DEF3B3191FD91E8100CCAF97 /* ReplaceMe.swift */,
+				DEF3B3181FD91E8100CCAF97 /* Info.plist */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -128,8 +128,8 @@
 		DEF3B31A1FD91EB500CCAF97 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				DEF3B31B1FD91EB500CCAF97 /* Info.plist */,
 				DEF3B31C1FD91EB500CCAF97 /* PROJECTTests.swift */,
+				DEF3B31B1FD91EB500CCAF97 /* Info.plist */,
 			);
 			path = Tests;
 			sourceTree = "<group>";

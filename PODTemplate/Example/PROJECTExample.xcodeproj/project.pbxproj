@@ -67,12 +67,12 @@
 		DEF3B31F1FD91FD200CCAF97 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				DEF3B3271FD91FD200CCAF97 /* ViewController.swift */,
+				DEF3B3241FD91FD200CCAF97 /* Main.storyboard */,
 				DEF3B3201FD91FD200CCAF97 /* AppDelegate.swift */,
 				DEF3B3211FD91FD200CCAF97 /* Assets.xcassets */,
 				DEF3B3221FD91FD200CCAF97 /* LaunchScreen.storyboard */,
-				DEF3B3241FD91FD200CCAF97 /* Main.storyboard */,
 				DEF3B3261FD91FD200CCAF97 /* Info.plist */,
-				DEF3B3271FD91FD200CCAF97 /* ViewController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
