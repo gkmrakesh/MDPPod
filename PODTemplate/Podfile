@@ -9,7 +9,7 @@ def dependent_pods
 end
 
 def example_project
-    # pod 'PROJECT', :path => './'
+    pod 'PROJECT', :path => './'
 end
 
 workspace 'PROJECT'
