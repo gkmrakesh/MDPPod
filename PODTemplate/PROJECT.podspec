@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.source_files = "Source/**/*.swift"
   # s.resources = "Resources/*","Source/**/*.{xib}"
 
-  # s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '9.0'
   # s.frameworks = "UIKit"
 
   s.pod_target_xcconfig = { "SWIFT_VERSION" => "4.0" }
