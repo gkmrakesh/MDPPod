@@ -8,10 +8,6 @@ Description
 	<img src="PodImages/img1.png" width="220" height="240" />  <img src="PodImages/img2.png" width="220" height="240" />
 </p>
 
-## Example
-
-To run the example project, clone the repo, and run Example project.
-
 ## Author
 
 -{user name}, -{email}
